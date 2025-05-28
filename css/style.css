@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Leckerli One", cursive;
+}
+
+body, html{
+    height: 100%;
+}
+
+.content-container{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content-container h1{
+    display: block;
+    margin: 30px auto;
+    
+}
+
+.content-container .recipes-list{
+    display: block;
+    margin: 0 auto;
+}
+
+.recipes-list ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.recipes-list li{
+    margin: 20px 0;
+
+}
+
+.recipes-list li a{
+    color: ;
+    text-decoration: none;
+}
