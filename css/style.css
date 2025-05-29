@@ -9,6 +9,13 @@ body, html{
     height: 100%;
 }
 
+.title-container.main-page h1 {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+
 .content-container{
     margin: 0 auto;
     width: 100%;
@@ -26,9 +33,7 @@ header{
 
 .content-container h1,
 .title-container h1{
-    text-align: center;
     width: 100%;
-    display: block;
 }
 
 .content-container .recipes-list{
@@ -56,8 +61,8 @@ nav ul{
 
 header{
     align-items:flex-start;
-    flex-direction: column;
     display: flex;
+    align-items: center;
     
 }
 
@@ -70,7 +75,26 @@ header nav a{
     color: black;
 }
 
+.food-basics {
+    display: flex;
+    background-color: rgb(255, 245, 230);
+}
 
 .description-container{
-    display: block;
+    margin: 1% 2%;
+}
+
+.details{
+    display: flex;
+    background-color: rgb(255, 245, 230);
+    gap: 20px;
+    padding: 2%;
+}
+
+.details .ingredients-container{
+    width: 50%;
+}
+
+.details .steps-container{
+    width: 50%;
 }
