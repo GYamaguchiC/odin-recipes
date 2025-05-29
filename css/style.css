@@ -18,12 +18,14 @@ body, html{
 
 }
 
-.title-container{
+.title-container, 
+header{
     background-color: rgb(216, 83, 0);
-    padding: 25px;
+    padding: 20px;
 }
 
-.content-container h1{
+.content-container h1,
+.title-container h1{
     text-align: center;
     width: 100%;
     display: block;
@@ -34,7 +36,8 @@ body, html{
     margin: 50px auto;
 }
 
-.recipes-list ul{
+.recipes-list ul, 
+nav ul{
     list-style-type: none;
     text-decoration: none;
 }
@@ -49,4 +52,25 @@ body, html{
     color: black;
     text-decoration: none;
     font-size: 24px;
+}
+
+header{
+    align-items:flex-start;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+header .title-container{
+    margin: 0 auto;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.description-container{
+    display: block;
 }
